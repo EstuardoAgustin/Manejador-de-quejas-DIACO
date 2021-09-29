@@ -355,7 +355,7 @@
                                                 </div>
                                               </div>
                                               <br>
-                                                <table class="table  table-condensed table-hover table-responsive-md  justify-center " id="tablaVerTodasQuejas">
+                                                <table class="table  table-condensed table-hover table-responsive-md  justify-center " id="tablaVerTodasQuejasporRegion">
                                                 <thead >
                                                     <tr class="bgcolor btn-facebook">									
                                                         <th class="text-center">Fecha Queja</th>
@@ -600,9 +600,7 @@
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
-    <!-- tawk chat JS
-		============================================ -->
-    <script src="js/tawk-chat.js"></script>
+
     
 <!-- data table JS
 		============================================ -->

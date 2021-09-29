@@ -417,7 +417,7 @@
                                                                                                             $dato2 = $data[1];
                                                                                                            
                                                                                                 ?>
-                                                                                                            <option value="<?php echo $dato1; ?>" > <?php echo $dato2; ?>  </option>
+                                                                                                            <option value="<?php echo $dato1; ?>" > <?php echo utf8_encode($dato2); ?>  </option>
                                                                                                 <?php 	} ?>
                                                                                             </select>
                                                                                             </div>

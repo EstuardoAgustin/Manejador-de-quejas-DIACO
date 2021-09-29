@@ -253,7 +253,8 @@
                                                         <th class="text-center">Sucursal</th>
                                                         <th class="text-center">Tipo de Sucursal</th>
                                                         <th class="text-center">Nombre Comercio</th>
-                                                        <th class="text-center">Ubicacion</th>
+                                                        <th class="text-center">Municipio</th>
+                                                        <th class="text-center">Region</th>
                                                         <th class="text-center">Acciones</th>
                                                       
                                                     </tr>
@@ -261,7 +262,7 @@
                                                 
                                                 <tbody>
                                                   <?php 
-                                                  $query_select = mysqli_query($conexionbd,"SELECT * FROM todasSucursales");
+                                                  $query_select = mysqli_query($conexionbd,"SELECT * FROM todasSucursales inner join departamento on todasSucursales.departamento_id_departamento=departamento.id_departamento inner join region on region.id_region=departamento.region_id_region");
                                                   $num_rows = mysqli_num_rows($query_select);
                                                   ?>
                                                   <?php
@@ -278,7 +279,8 @@
                                                               <td class="text-center"><?php echo $row['nombreSucursal']?></td>
                                                               <td class="text-center"><?php echo $row['tipoSucursal']?></td>
                                                               <td class="text-center"><?php echo $row['nombreComercio']?></td>
-                                                              <td class="text-center"><?php echo $row['municipio']?></td>
+                                                              <td class="text-center"><?php echo utf8_encode($row['municipio'])?></td>
+                                                              <td class="text-center"><?php echo $row['region']?></td>
                                                               <td class="text-center"> </td>
                                                               </tr>
                                                       <?php }
@@ -394,9 +396,7 @@
     <!-- main JS
 		============================================ -->
     <script src="js/main.js"></script>
-    <!-- tawk chat JS
-		============================================ -->
-    <script src="js/tawk-chat.js"></script>
+
     
 <!-- data table JS
 		============================================ -->

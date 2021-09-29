@@ -29,6 +29,8 @@ $(document).ready(function(){
             "sProcessing":"Procesando...",
         }
     });
+  
+    
     //------------fin inicializacion de la estructura de DataTable que lista los
     //incializa la tabla con la libreria DataTable que lista todos 
     tablaVerSucursales = $('#tablaVerSucursales').DataTable({  // incializa la
