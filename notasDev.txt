@@ -1,0 +1,39 @@
+editar 3 modulos
+Modulo Usuarios 
+    quitar boton desactivar ROL*
+    modal para ver el o quitar boton ver*
+    modal para ver usuario *
+    modal editar usuario*
+
+Modulo comercio 
+    ver comercio modal *
+    Editar nombre comercio principal*
+    sucursal
+        ver sucursal modal *
+        editar sucursal *
+
+modulo Ubicaciones
+    Agregar municipios 
+    quitar boton agregar ubicacion
+
+Modulo Reportes 
+    Quitar o agregar conteo de quejas 
+    dar formato Datatable a tablas 
+
+
+listar comercios y municipios quejas*
+
+UTF8
+Quitar mensaje de send msj
+Reportes quejas por Region no da 
+
+
+
+
+Reportes
+    - generar estadísticas y detalle de quejas realizadas por comercio, municipio, departamento o región *
+    - el conteo de quejas por comercio-sucursal en la región norte y sur realizado durante este año, *
+    - el conteo de quejas por comercio-sucursal en la región norte y sur que no haya tenido ninguna queja para el *
+            comercio en la región oriente durante este año. *
+    - Listado de quejas recibidas en rango de fechas *
+
